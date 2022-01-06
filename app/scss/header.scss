@@ -1,0 +1,10 @@
+@import "vars";
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: $title-font;
+  font-size: 24px;
+}

@@ -1,0 +1,47 @@
+@import "vars";
+
+.commands {
+  padding: 0 16px;
+}
+
+.commandsWrapper {
+  display: grid;
+  row-gap: 8px;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  position: sticky;
+  top: 28px;
+}
+
+.command__name {
+  font-weight: 700;
+  justify-self: end;
+}
+
+.command__delimiter {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  margin: 0 6px;
+}
+
+.approvePointer {
+  background-color: $approve-color;
+}
+
+.declinePointer {
+  background-color: $decline-color;
+}
+
+.escalatePointer {
+  background-color: $escalate-color;
+}
+
+.focusPointer {
+  background-color: $focus-color;
+}
+
+.command__btn {
+  color: #777777;
+  justify-self: start;
+}

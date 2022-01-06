@@ -1,0 +1,45 @@
+@import "vars";
+@import "global";
+@import "card";
+@import "commands";
+
+#init {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > p {
+    margin: 10px;
+    font-size: 32px;
+  }
+}
+
+.bold {
+  font-family: $title-font;
+}
+
+.mainTitle {
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.main {
+  width: 100%;
+}
+
+.mainWrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20fr min-content;
+}
+
+.cardSet {
+  padding: 20px;
+}
+
+.commands {
+  padding: 20px;
+}
